@@ -1,0 +1,20 @@
+{
+    "name": "itc/uuid",
+    "description": "OpenSSL UUID wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rich Choy",
+            "email": "rich@it-consultis.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ITC\\": "src/ITC/"
+        }
+    }
+}
